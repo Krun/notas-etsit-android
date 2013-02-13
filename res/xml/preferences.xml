@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory 
+        android:title="Datos de usuario"
+        android:key="pref_key_user_settings">
+    <EditTextPreference 
+        android:title="Usuario"
+    	android:key="usuario"
+    	android:summary="Tu usuario de la web de notas provisionales"
+    	android:defaultValue="" />
+    <EditTextPreference
+    	android:key="password"
+    	android:title="Password"
+    	android:summary="Tu password de la web de notas provisionales"   
+    	android:password="true"
+    	android:defaultValue="" />
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
